@@ -1,0 +1,11 @@
+%Exercise 1 (B. Hunt)
+%part A
+dsolve('t*Dy + 3*y = 5*t^2', 'y(2) = 5')
+
+%part B, [0.5, 5]
+s1 = dsolve('t*Dy + 3*y = 5*t^2', 'y(2) = 5');
+ezplot(s1, [0.5,5])
+
+%part B, [0.5, 5]
+s1 = dsolve('t*Dy + 3*y = 5*t^2', 'y(2) = 5');
+ezplot(s1, [0.5,5])
